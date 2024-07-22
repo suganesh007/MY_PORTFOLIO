@@ -1,145 +1,131 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-    background-color: #f4f1ea;
-    overflow: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  background-color: #f4f1ea;
+  overflow: hidden;
 }
 
-#container{
-    background-color: #f4f1ea;
-    display: grid;
-    grid-template-rows: repeat(5,1fr);
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    margin: 3vw;
-
-
+#container {
+  background-color: #f4f1ea;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 3vw;
 }
 
-#container .child{
-    color: white;
-    
-
+#container .child {
+  color: white;
 }
 
-#container .child4{
-    display: grid;
-    grid-auto-flow: row;
+#container .child4 {
+  display: grid;
+  grid-auto-flow: row;
 }
 
-.child1 a{
-    color: black;
-    text-decoration: none;
-    padding: 6vw;
-    font-weight: 00;
-    font-size: large;
-    font-family: "Quicksand", sans-serif;
+.child1 a {
+  color: black;
+  text-decoration: none;
+  padding: 6vw;
+  font-weight: 00;
+  font-size: large;
+  font-family: "Quicksand", sans-serif;
 }
 
-.child2{
-    
-    font-weight:500;
-    font-size: 2vw;
-    text-align: center;
-    position: relative;
+.child2 {
+  font-weight: 500;
+  font-size: 2vw;
+  text-align: center;
+  position: relative;
 }
-.child2::before{
-     content: "";
-        background-color: crimson;
-        width: 0;
-        height: 0.3vh;
-        position: absolute;
-        top: 2.5vw;
-        left: 29.5vw;
-        transition: 0.3s width linear;
-
+.child2::before {
+  content: "";
+  background-color: crimson;
+  width: 0;
+  height: 0.3vh;
+  position: absolute;
+  top: 2.5vw;
+  left: 29.5vw;
+  transition: 0.3s width linear;
 }
 
-.child2:hover::before{
-    width: 6vw;
+.child2:hover::before {
+  width: 6vw;
 }
 
-.child3 a{
-    color: black;
-    text-decoration: none;
-    font-size: 2vw;
-    padding: 2vw;
-    text-align: center;
+.child3 a {
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 2vw;
+  text-align: center;
 }
-.child3{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    grid-auto-flow: column;
-}
-
-.child4{
-    display: grid;
-    gap: 1vw;
-    align-items: center;
-    justify-content: center;
-}
-.child4 #name, .child4 #email{
-    width: 30vw;
-    height: 3vh;
-    color: crimson;
-    font-weight: 600;
-    font-size: 1.1vw;
-    border: 2px solid black;
-}
-.child4 #commends{
-    width: 30vw;
-    height: 20vh;
-    border: 2px solid black;
-    resize: none;
-    color: crimson;
-    font-weight: 600;
-    font-size: 1.1vw;
+.child3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-auto-flow: column;
 }
 
-.child5{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    
- 
-
+.child4 {
+  display: grid;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
 }
-.child5 #btn{
-    width: 10vw;
-    height: 6vh;
-    background-color: rgb(255, 0, 51);
-    border-radius: 0.2vw;
-    color: whitesmoke;
-    font-size: 1.3vw;
-    border: none;
+.child4 #name,
+.child4 #email {
+  width: 30vw;
+  height: 3vh;
+  color: crimson;
+  font-weight: 600;
+  font-size: 1.1vw;
+  border: 2px solid black;
 }
-#container .child1 a{
-    position: relative;
-    font-weight: 500;
-}
-
-#container .child1 a::before{
-    
-        content: "";
-        background-color: crimson;
-        width: 0;
-        height: 0.3vh;
-        position: absolute;
-        top: 7.5vw;
-        left: 6.7vw;
-        transition: 0.2s width linear;
-    
-    
-    
+.child4 #commends {
+  width: 30vw;
+  height: 20vh;
+  border: 2px solid black;
+  resize: none;
+  color: crimson;
+  font-weight: 600;
+  font-size: 1.1vw;
 }
 
+.child5 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.child5 #btn {
+  width: 10vw;
+  height: 6vh;
+  background-color: rgb(255, 0, 51);
+  border-radius: 0.2vw;
+  color: whitesmoke;
+  font-size: 1.3vw;
+  border: none;
+}
+#container .child1 a {
+  position: relative;
+  font-weight: 500;
+}
 
+#container .child1 a::before {
+  content: "";
+  background-color: crimson;
+  width: 0;
+  height: 0.3vh;
+  position: absolute;
+  top: 7.5vw;
+  left: 6.7vw;
+  transition: 0.2s width linear;
+}
 
-#container .child1 a:hover::before{
-    width: 2vw;
+#container .child1 a:hover::before {
+  width: 2vw;
 }

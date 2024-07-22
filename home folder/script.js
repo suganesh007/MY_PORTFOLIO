@@ -1,13 +1,7 @@
-var div = document.getElementById("header")
-var section1 = document.getElementById("section1")
+var div = document.getElementById("header");
+var section1 = document.getElementById("section1");
 
-function swipeUp()
-{
-    
-    
-    div.style.height = "0"
-    section1.style.height = "100vh"
-
-
+function swipeUp() {
+  div.style.height = "0";
+  section1.style.height = "100vh";
 }
-
