@@ -1,4 +1,4 @@
-<h1>**Portfolio Website**</h1>
+<h1><b>Portfolio Website</b></h1>
 <h2>🌐Welcome to my portfolio website repository! </h2>
             🎉 This site showcases my projects, skills, and experiences in software development.<br>
             Explore the various sections to learn more about my work and connect with me.
@@ -13,13 +13,23 @@
             To view or contribute to this project locally, follow these steps:
 
 **1.) Clone the repository:** <br>
-            git clone <br>
-            https://github.com/suganesh007/my_portfolio.git<br>
+            <pre>       git clone 
+                        https://github.com/suganesh007/my_portfolio.git</pre><br>
 **2.) Navigate to the project directory:**
-            cd portfolioOpen index.html in your web browser to view the site.Project Structure 📁portfolio/
+            <pre>       cd my_portfolio</pre>
+**3.) Open index.html in your web browser to view the site.**
+
+<h2>Project Structure<h2> 
+<pre>
+📁portfolio/
 │
 ├── css/
-│   └── styles.css         # Styles for the website
+│   └── style.css         # Styles for the website
+|   └── about.css 
+|   └── portfolio.css 
+|   └── contact.css 
+|   └── weather.css 
+|   └── calci.css 
 │
 ├── images/
 │   └── (various images)   # Images used in the portfolio
@@ -29,4 +39,16 @@
 │
 ├── index.html             # Main HTML file
 │
-└── README.md              # This README fileContributing 🤝Contributions are welcome! If you have suggestions or want to improve the project, please fork the repository and submit a pull request. Your input is highly valued!License 📜This project is licensed under the MIT License. See the LICENSE file for details.Contact 📫Feel free to reach out:Email: your-email@example.comLinkedIn: Your LinkedIn ProfileGitHub: Your GitHub Profile
+└── README.md              # This README file
+            </pre>
+
+<h1>Contributing 🤝</h1>
+<pre>            Contributions are welcome! If you have suggestions or want to improve the project, 
+            please fork the repository and submit a pull request. 
+            Your input is highly valued!
+            </pre>
+<h1>Contact 📫</h1>
+            Feel free to reach out: <br>
+            Email: suganeshwaran.sg@gmail.com<br>
+            LinkedIn: https://www.linkedin.com/in/suganeshwaran-s-8141622b2<br>
+            GitHub: https://github.com/suganesh007/
