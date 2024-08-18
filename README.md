@@ -14,7 +14,7 @@
 
 **1.) Clone the repository:** <br>
             git clone <br>
-            https://github.com/suganesh007/portfolio.git<br>
+            https://github.com/suganesh007/my_portfolio.git<br>
 **2.) Navigate to the project directory:**
             cd portfolioOpen index.html in your web browser to view the site.Project Structure 📁portfolio/
 │
