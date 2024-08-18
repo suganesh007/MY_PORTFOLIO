@@ -1,9 +1,22 @@
 <h1>**Portfolio Website**</h1>
 <h2>🌐Welcome to my portfolio website repository! </h2>
-            🎉 This site showcases my projects, skills, and experiences in software development.
+            🎉 This site showcases my projects, skills, and experiences in software development.<br>
             Explore the various sections to learn more about my work and connect with me.
-<h2>Features ✨</h2>
-    Resume: A downloadable version of my resume for your reference.Contact: Ways to get in touch with me for opportunities and collaborations.Technologies Used 💻Frontend: HTML, CSS, JavaScriptHosting: GitHub PagesVersion Control: GitGetting Started 🚀To view or contribute to this project locally, follow these steps:Clone the repository:git clone https://github.com/yourusername/portfolio.gitNavigate to the project directory:cd portfolioOpen index.html in your web browser to view the site.Project Structure 📁portfolio/
+<h2>Technologies Used </h2>
+            <h4>💻Frontend:</h4>
+                        HTML, CSS, JavaScript
+            <h4>Hosting:</h4>
+                        GitHub Pages
+            <h4>Version Control:</h4>
+                        Git
+<h1>Getting Started 🚀</h1>
+            To view or contribute to this project locally, follow these steps:
+
+**1.) Clone the repository:** <br>
+            git clone <br>
+            https://github.com/suganesh007/portfolio.git<br>
+**2.) Navigate to the project directory:**
+            cd portfolioOpen index.html in your web browser to view the site.Project Structure 📁portfolio/
 │
 ├── css/
 │   └── styles.css         # Styles for the website
