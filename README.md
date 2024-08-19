@@ -20,6 +20,15 @@
             <pre>       cd my_portfolio</pre>
 **3.) Open index.html in your web browser to view the site.**
 
+
+<div><img src = "images/pic1.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+<div><img src = "images/pic2.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+<div><img src = "images/pic3.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+<div><img src = "images/pic4.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+<div><img src = "images/pic5.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+<div><img src = "images/pic6.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+<div><img src = "images/pic7.png" alt="output images" style="border-radius: 10px; max-width:100%; border:4px solid black"></div> <br>
+
 <h2>Project Structure<h2> 
 <pre>
 📁portfolio/
