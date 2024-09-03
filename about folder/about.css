@@ -47,7 +47,7 @@
   width: 85%;
   height: 75vh;
   margin: auto;
-  border: 2px solid #050504;
+  border: 2px solid #050504; /* Default border size */
 }
 
 #about-me {
@@ -86,6 +86,7 @@
   padding: 2vw;
   font-size: 1.7vw;
 }
+
 .typing {
   color: #dc143b;
 }
@@ -106,9 +107,11 @@
 button {
   display: block;
 }
+
 #parent1 {
   position: relative;
 }
+
 button {
   position: absolute;
   top: 31.5vw;
@@ -120,5 +123,51 @@ button {
   font-size: 1.2vw;
   font-weight: 400;
   width: 12vw;
-  border-radius: 0.6vw 0.6vw 0.6vw 0.6vw;
+  border-radius: 0.6vw;
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  #section1 #nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #section1 #nav-bar a {
+    font-size: 4vw;
+    margin: 1vw 0;
+  }
+
+  #parent1 {
+    width: 95%;
+    height: auto;
+    padding: 2vw;
+    border: 1px solid #050504; /* Reduced border size */
+  }
+
+  #about-me {
+    font-size: 4vw;
+    width: auto;
+  }
+
+  #head {
+    font-size: 4vw;
+    padding: 2vw;
+  }
+
+  #child1 {
+    margin: 2vw 0;
+    font-size: 3vw;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  button {
+    position: static;
+    margin: 2vw auto;
+    width: 60%; /* Reduced button width */
+    font-size: 4vw; /* Increased font size for better readability */
+    padding: 1.5vw; /* Adjusted padding */
+    border-radius: 1vw;
+  }
 }
